@@ -26,15 +26,28 @@
   </nav>
 
   <!-- About Section -->
-  <section class="about" id="about">
+  <section class="about card-block" id="about">
     <div class="text">
-      <h2>Cybersecurity Enthusiast | SOC Analyst in Progress | JAMK ICT Student</h2>
-      <p>I’m Md Tanvir Rana, currently studying ICT at JAMK University of Applied Sciences in Finland. My focus is cybersecurity — specifically SOC operations, ethical hacking, and digital forensics. I enjoy exploring dark web OSINT, threat detection, and creating secure systems. I’ve ranked among the top 5 in Finland on LetsDefend and am committed to continuous learning and hands-on project development. When I’m not buried in logs or terminal windows, I enjoy editing videos, traveling, and creative storytelling.</p>
-      <div class="link">
-        <a href="#skill"><i class="fa-solid fa-code"> Skill</i></a>
-        <a href="#projects"><i class="fa-solid fa-laptop-code"> Projects</i></a>
-        <a href="#testimonial"><i class="fa-solid fa-pen"> Testimonial</i></a>
-        <a href="#contact"><i class="fa-solid fa-envelope"> Contact</i></a>
+      <h2>Cybersecurity Engineering Student | SOC & AI Threat Detection | JAMK ICT</h2>
+      <p>I’m Md Tanvir Rana, an ICT bachelor’s student at JAMK University of Applied Sciences in Finland, where I focus on cybersecurity with a strong interest in SOC operations, ethical hacking, and the use of artificial intelligence in modern defense systems. My work sits at the intersection of practical engineering and academic exploration. I’ve built systems that detect real attacks — from simulating reverse shells in a Wazuh-based SIEM lab to scanning for vulnerabilities in misconfigured Azure environments and building encrypted messaging tools inspired by real-world threat models.</p>
+      <p>I’ve ranked among the top 5 cybersecurity learners in Finland on LetsDefend, a reflection of my commitment to hands-on growth and operational mastery. I enjoy working on problems that matter — how to make threat detection more intelligent, how to stay ahead of post-quantum risks, and how to build systems that actually hold up when attacked.</p>
+      <p>Outside of cybersecurity, I mentor exchange students who arrive in Finland from around the world, helping them adjust to both student life and tech environments. I also love visual storytelling, whether through video editing or photography, and I find it helps me think more creatively about complex systems. I’m now preparing for master’s programs that blend cybersecurity, AI, and cloud technologies, with the long-term vision of building security solutions that are intelligent, ethical, and resilient enough for the challenges of tomorrow.</p>
+      <div class="link nav-btn-group nav-btn-grid">
+        <div class="nav-btn-row">
+          <a href="#about" class="nav-btn"><i class="fa-solid fa-user"></i> ABOUT</a>
+          <a href="#skill" class="nav-btn"><i class="fa-solid fa-code"></i> SKILL</a>
+          <a href="#certifications" class="nav-btn"><i class="fa-solid fa-certificate"></i> CERTIFICATIONS</a>
+        </div>
+        <div class="nav-btn-row">
+          <a href="#projects" class="nav-btn"><i class="fa-solid fa-laptop-code"></i> PROJECTS</a>
+          <a href="#experience" class="nav-btn"><i class="fa-solid fa-briefcase"></i> EXPERIENCE</a>
+          <a href="#event-leadership" class="nav-btn"><i class="fa-solid fa-microphone"></i> EVENTS</a>
+        </div>
+        <div class="nav-btn-row">
+          <a href="#papers-research" class="nav-btn"><i class="fa-solid fa-file-alt"></i> RESEARCH</a>
+          <a href="#testimonial" class="nav-btn"><i class="fa-solid fa-pen"></i> TESTIMONIAL</a>
+          <a href="#contact" class="nav-btn"><i class="fa-solid fa-envelope"></i> CONTACT</a>
+        </div>
       </div>
     </div>
     <div class="image">
@@ -43,83 +56,238 @@
   </section>
 
   <!-- Skills -->
-  <section class="skill" id="skill">
+  <section class="skill card-block" id="skill">
     <div class="skill-text">
       <h2><span class="section-head">Skill</span></h2>
-      <p>I specialize in cybersecurity fundamentals and tools including Kali Linux, Wireshark, Burp Suite, and basic scripting in Python. I’m familiar with digital forensics, Linux systems, SQL, Git, and penetration testing frameworks. My skillset combines technical ability with critical thinking, enabling me to simulate, detect, and defend against common cyber threats.</p>
+      <p>I specialize in cybersecurity engineering with hands-on experience in tools like Kali Linux, Wireshark, Burp Suite, and Python. I’ve worked across SOC environments, cloud misconfiguration audits, and secure system design using Docker and Wazuh. My technical foundation includes scripting, log analysis, network security, and applied AI — enabling me to build, detect, and defend in real-world cyber threat scenarios. I’m also skilled in data preprocessing, machine learning, and model evaluation for cyber analytics and threat classification tasks.</p>
+      <div class="skills-badges">
+        <span>🐍 PYTHON</span>
+        <span>🐧 KALI LINUX</span>
+        <span>🕷 BURP SUITE</span>
+        <span>📶 WIRESHARK</span>
+        <span>🐳 DOCKER</span>
+        <span>☁️ AZURE</span>
+        <span>📦 WAZUH</span>
+        <span>🧠 JAVASCRIPT</span>
+        <span>📊 SQL</span>
+        <span>🔧 GIT</span>
+        <span>📈 NUMPY</span>
+        <span>🧪 PANDAS</span>
+        <span>🔍 SCIKIT-LEARN</span>
+        <span>🧠 MACHINE LEARNING</span>
+        <span>📊 DATA ANALYSIS</span>
+      </div>
     </div>
-    <div class="skilled_topic">
-      <i class="fa-brands fa-python"> Python</i>
-      <i class="fa-brands fa-linux"> Linux</i>
-      <i class="fa-solid fa-network-wired"> Kali Linux</i>
-      <i class="fa-solid fa-bug"> Burp Suite</i>
-      <i class="fa-solid fa-wifi"> Wireshark</i>
-      <i class="fa-solid fa-database"> SQL</i>
-      <i class="fa-brands fa-git-alt"> Git</i>
+  </section>
+
+  <!-- Certifications -->
+  <section class="certifications card-block" id="certifications">
+    <h2><span class="section-head">Certifications</span></h2>
+    <div class="con-text">
+      <p>These certifications reflect my hands-on training across cybersecurity, cloud, IT support, and data analytics. They reinforce my applied skills in SOC operations, ethical hacking, and system administration — all essential for cybersecurity and AI master's programs.</p>
+      <div class="cert-list">
+        <h3>🛡️ Cybersecurity & SOC Operations</h3>
+        <ul>
+          <li><strong>1. Google Cybersecurity Professional Certificate</strong><br><em>Google | Coursera</em><br>Practical training in SIEM workflows, incident response, threat mitigation, and secure network principles.</li>
+          <li><strong>2. LetsDefend: SOC Level 1 Path (Top 5 in Finland)</strong><br><em>LetsDefend</em><br>Completed full blue-team lab simulations including malware detection, log analysis, and reverse shell identification.</li>
+          <li><strong>3. Cybersecurity Attack and Defense Fundamentals</strong><br><em>EC-Council</em><br>Explored offensive and defensive techniques aligned with frameworks like MITRE ATT&CK.</li>
+          <li><strong>4. Ethical Hacker</strong><br><em>Cisco Networking Academy</em><br>Hands-on skills in vulnerability scanning, reconnaissance, and attack simulation.</li>
+          <li><strong>5. Cybersecurity Operations Fundamentals</strong><br><em>Cisco Networking Academy</em><br>Core SOC workflows, log correlation, and real-time detection concepts.</li>
+        </ul>
+        <h3>☁️ Cloud Computing & Linux</h3>
+        <ul>
+          <li><strong>1. Building Cloud Computing Solutions at Scale</strong><br><em>Duke University | Coursera</em><br>Focused on secure deployments, scalability, and cloud-native architecture.</li>
+          <li><strong>2. Linux and Private Cloud Administration on IBM Power Systems</strong><br><em>IBM | edX</em><br>Practical Linux administration and private cloud provisioning using IBM platforms.</li>
+        </ul>
+        <h3>🔧 IT Support & Systems</h3>
+        <ul>
+          <li><strong>1. Google IT Support Professional Certificate</strong><br><em>Google | Coursera</em><br>System diagnostics, networking, security basics, and automation in helpdesk environments.</li>
+        </ul>
+        <h3>🤖 Data Analytics & Project Management</h3>
+        <ul>
+          <li><strong>1. Google Data Analytics Professional Certificate</strong><br><em>Google | Coursera</em><br>Analyzed and visualized data using SQL, spreadsheets, and dashboards.</li>
+          <li><strong>2. Google Project Management Certificate</strong><br><em>Google | Coursera</em><br>Agile and waterfall methodologies, stakeholder communication, and sprint planning.</li>
+        </ul>
+        <h3>🔓 API Security</h3>
+        <ul>
+          <li><strong>1. APISEC Certified Practitioner</strong><br><em>APISEC University</em><br>Practical API pentesting with broken auth, token abuse, and OWASP API Top 10 vulnerabilities.</li>
+        </ul>
+        <p style="margin-top:18px;"><strong>📁 View All Certificates on GitHub (Coming Soon)</strong><br><small>(All PDFs, badge screenshots, and verification links will be uploaded here.)</small></p>
+      </div>
     </div>
   </section>
 
   <!-- Projects -->
-<section class="projects" id="projects">
-  <h2><span class="section-head">Projects</span></h2>
-  <div class="con-text">
-    <p>Here are some of the hands-on projects I've built to strengthen my skills in cybersecurity, cloud security, AI, and automation. Each one reflects my focus on solving real-world problems with a practical and secure approach.</p>
+  <section class="projects card-block" id="projects">
+    <h2><span class="section-head">Projects</span></h2>
+    <div class="con-text">
+      <p>Here are some of the hands-on projects I've built to strengthen my skills in cybersecurity, cloud security, AI, and automation. Each one reflects my focus on solving real-world problems with a practical and secure approach.</p>
 
-    <h3>1. Cryptography-Based Secure Messaging System</h3>
-    <ul>
-      <li><strong>Tech Stack:</strong> Python, RSA, AES, PyQt5</li>
-      <li><strong>Summary:</strong> Developed a secure chat app using hybrid encryption — AES for message privacy and RSA for secure key exchange. Features a full GUI and end-to-end protection.</li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/Cryptochat" target="_blank">View Repo</a></li>
-    </ul>
+      <div class="project-list">
+        <div class="project">
+          <h3>1. 🔐 Cryptography-Based Secure Messaging System</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How can private digital conversations remain secure under active surveillance or MITM threats?</li>
+            <li><strong>Solution:</strong> Designed a hybrid-encrypted chat app using AES for messages and RSA for key exchange, with a PyQt5 GUI.</li>
+            <li><strong>Impact:</strong> Demonstrates secure protocol implementation, GUI design, and post-quantum preparedness awareness.</li>
+            <li><strong>Tech Stack:</strong> Python, RSA, AES, PyCryptodome, PyQt5</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/Cryptochat" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>2. ☁️ Azure Cloud Misconfiguration Audit Tool</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How to proactively detect and report insecure cloud configurations before attackers exploit them?</li>
+            <li><strong>Solution:</strong> Built a scanner that flags risks like public buckets, weak access controls, and logging gaps in Azure; outputs audit reports in PDF.</li>
+            <li><strong>Impact:</strong> Mimics real-world cloud security audits aligned with NIS2 and Zero Trust principles.</li>
+            <li><strong>Tech Stack:</strong> Python, Azure CLI, Markdown, PDFKit</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/azure-audit-tool.git" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>3. 🛡️ SIEM Lab: Wazuh-Based SOC Simulation (Docker)</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How can aspiring SOC analysts practice with real log data and incidents in a safe environment?</li>
+            <li><strong>Solution:</strong> Created a Dockerized lab running Wazuh + ELK, simulating reverse shells, port scans, and malware injections from Kali Linux.</li>
+            <li><strong>Impact:</strong> Emulates a full-stack blue team environment for log analysis, detection engineering, and alerting.</li>
+            <li><strong>Tech Stack:</strong> Wazuh, ELK Stack, Docker, Kali Linux</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/Wazuh-SIEM-Home-Lab-Project.git" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>4. 🤖 AI Job Bot – Local LLM-Powered Matching Tool</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How can job seekers get personalized recommendations while preserving data privacy?</li>
+            <li><strong>Solution:</strong> Developed a CLI and web tool using open-source LLMs (Ollama + Mistral) to match CVs to job descriptions from Finnish job portals.</li>
+            <li><strong>Impact:</strong> Local AI + privacy-first design shows AI system integration, ethical handling, and career automation.</li>
+            <li><strong>Tech Stack:</strong> Python, Flask, Ollama, Mistral, SQLite, Rich CLI</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/job-bot.git" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>5. 🧠 PromptWiz – AI-Powered Prompt Engineering Mentor</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How can non-experts write better prompts for language models?</li>
+            <li><strong>Solution:</strong> A gamified AI mentor that teaches structured prompt engineering using GPT-3.5 with live feedback and challenges.</li>
+            <li><strong>Impact:</strong> Highlights AI usability, ethical instruction, and UX design — applicable for EMAI or EIT Digital candidates.</li>
+            <li><strong>Tech Stack:</strong> JavaScript, HTML, CSS, OpenAI API</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/promptwiz-gpt.git" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>6. 🕵️ Pentest-Tools – GUI-Based Web Reconnaissance Toolkit</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How to simplify initial recon tasks during penetration testing engagements?</li>
+            <li><strong>Solution:</strong> Created a GUI app that automates subdomain enumeration, WHOIS, DNS lookups, and Shodan scans with exportable reports.</li>
+            <li><strong>Impact:</strong> Brings red-team recon methods into an accessible toolkit — strong evidence of applied offensive security knowledge.</li>
+            <li><strong>Tech Stack:</strong> Python, Tkinter, Shodan API, HTML Report</li>
+            <li><strong>GitHub:</strong> <a href="#" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>7. 🧰 Troubleshooting Toolkit (PowerShell & Bash)</h3>
+          <ul>
+            <li><strong>Challenge:</strong> How to automate basic diagnostics and system recovery on Windows and Linux endpoints?</li>
+            <li><strong>Solution:</strong> Built two modular scripts for automated log collection, service checks, and fix routines for IT support workflows.</li>
+            <li><strong>Impact:</strong> Demonstrates scripting fluency, cross-platform troubleshooting, and real-world IT support experience — valuable for DAAD and practical programs.</li>
+            <li><strong>Tech Stack:</strong> PowerShell, Bash, Systemctl, Netstat</li>
+            <li><strong>GitHub:</strong> <a href="#" target="_blank">View Repo</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h3>2. Cloud Security Audit: Azure Misconfiguration Detection Tool</h3>
-    <ul>
-      <li><strong>Tech Stack:</strong> Python, Azure CLI, Markdown-to-PDF</li>
-      <li><strong>Summary:</strong> Automated scanner that identifies Azure misconfigurations such as unrestricted storage accounts, disabled logging, and insecure access policies. Generates audit-ready PDF reports.</li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/azure-audit-tool.git" target="_blank">View Repo</a></li>
-    </ul>
+  <!-- Experience -->
+  <section class="experience card-block" id="experience">
+    <h2><span class="section-head">Experience</span></h2>
+    <div class="con-text">
+      <p>Here’s a highlight of my recent professional and volunteer experience in IT support and international student mentoring.</p>
 
-    <h3>3. SIEM Lab: Wazuh-Based SOC Simulation (Docker)</h3>
-    <ul>
-      <li><strong>Tech Stack:</strong> Wazuh, ELK Stack, Docker, Kali Linux</li>
-      <li><strong>Summary:</strong> Set up a simulated Security Operations Center (SOC) environment using Wazuh to monitor and analyze reverse shell attempts, Nmap scans, and malware drops in a containerized lab.</li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/Wazuh-SIEM-Home-Lab-Project.git" target="_blank">View Repo</a></li>
-    </ul>
+      <div class="exp-role">
+        <h3>👨‍💻 IT Support Professional</h3>
+        <p><strong>Educators United</strong> | Dhaka, Bangladesh<br><em>Jan 2022 – Aug 2023</em></p>
+        <ul>
+          <li>Delivered Tier 1 and Tier 2 technical support across a network of faculty and staff, managing both Windows and Linux-based systems.</li>
+          <li>Diagnosed and resolved hardware failures, OS issues, and network disruptions using PowerShell, Bash, and diagnostic utilities.</li>
+          <li>Maintained printers, routers, and classroom tech infrastructure; ensured minimal downtime during academic hours.</li>
+          <li>Configured local network security, performed OS patch updates, and enforced basic cybersecurity hygiene (password policies, firewalls, admin rights).</li>
+          <li>Authored reusable troubleshooting scripts and internal how-to guides, reducing repeat support tickets by over 30%.</li>
+          <li>Worked closely with academic and administrative departments, balancing technical tasks with human-centered problem solving.</li>
+        </ul>
+      </div>
 
-    <h3>4. PromptWiz: AI-Powered Prompt Engineering Mentor</h3>
-    <ul>
-      <li><strong>Tech Stack:</strong> JavaScript, GPT-3.5, HTML, CSS</li>
-      <li><strong>Summary:</strong> Interactive web app designed to teach advanced prompt engineering skills through challenges, progress badges, and feedback coaching using GPT APIs.</li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/promptwiz-gpt.git" target="_blank">View Repo</a></li>
-    </ul>
+      <div class="exp-role">
+        <h3>🌐 Exchange Student Tutor</h3>
+        <p><strong>JAMKO – JAMK University of Applied Sciences</strong> | Jyväskylä, Finland<br><em>Sep 2023 – Present</em></p>
+        <ul>
+          <li>Guided international students during onboarding, academic registration, and basic tech setup (Eduroam, JAMK portals, Zoom/Teams).</li>
+          <li>Supported peer students with email setups, password resets, VPNs, and file-sharing tools while navigating a new IT environment.</li>
+          <li>Created a smooth integration experience for non-Finnish speakers through mentorship and cross-cultural communication.</li>
+          <li>Collaborated with JAMK’s IT helpdesk and student union to relay tech issues and feedback from international students.</li>
+          <li>Strengthened soft skills like empathy, technical communication, and multilingual guidance — critical for cybersecurity support teams.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <h3>5. AI Job Bot – Local LLM-Powered Job Matching Tool</h3>
-    <ul>
-      <li><strong>Tech Stack:</strong> Python, SQLite, Ollama, Mistral, Flask, Rich CLI</li>
-      <li><strong>Summary:</strong> AI job matching assistant that scrapes listings from Finnish job portals, scores relevance with local LLMs, and presents results via CLI and a Flask dashboard.</li>
-      <li><strong>GitHub:</strong> <a href="https://github.com/tanviiiiir-r/job-bot.git" target="_blank">View Repo</a></li>
-    </ul>
-  </div>
-</section>
+  <!-- Event Participation & Leadership -->
+  <section class="event-leadership card-block" id="event-leadership">
+    <h2><span class="section-head"> Event Participation & Leadership </span></h2>
+    <div class="con-text">
+      <div class="event-block">
+        <h3 class="event-title"><span>🧠 Viitasaari AI Hackathon</span></h3>
+        <p><strong>Organized by City of Viitasaari + JAMK University</strong> | Viitasaari, Finland<br><em>May 2025</em></p>
+        <ul>
+          <li>Led a team of five international students to co-create a sustainable innovation proposal in collaboration with the City Manager of Viitasaari.</li>
+          <li>Addressed the challenge of population growth and carbon footprint reduction by proposing a community-integrated AI-powered "Lake Lab".</li>
+          <li>The "Lake Lab" was designed as a floating research infrastructure to enable long-term AI-driven environmental monitoring, climate modeling, and tech-for-sustainability pilot projects on Viitasaari’s lake.</li>
+          <li>Presented a comprehensive plan that combined machine learning, IoT, and real-time data analytics with social impact metrics to revitalize the region.</li>
+          <li>Experience demonstrated my ability to lead diverse teams, bridge tech with policy, and design impactful solutions grounded in AI and sustainability.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<!-- Experience -->
-<section class="experience" id="experience">
-  <h2><span class="section-head">Experience</span></h2>
-  <div class="con-text">
-    <p>Here’s a highlight from my recent experience supporting international students while continuing my own studies in ICT and cybersecurity.</p>
-
-    <h3>Exchange Student Tutor – JAMK University of Applied Sciences</h3>
-    <ul>
-      <li><strong>Role:</strong> Assisted incoming exchange students in settling into life and academics in Finland.</li>
-      <li><strong>Responsibilities:</strong> Helped with orientation, daily logistics, cross-cultural integration, and tech onboarding.</li>
-    </ul>
-  </div>
-</section>
-
-
+  <!-- Papers & Research -->
+  <section class="papers-research card-block" id="papers-research">
+    <h2><span class="section-head"> Papers & Research </span></h2>
+    <div class="con-text">
+      <div class="paper-block">
+        <h3>1. 🔐 Quantum-Safe SOC Simulator: Enhancing Log Analysis with Kernel PCA and Post-Quantum Crypto</h3>
+        <p><strong>Status:</strong> In Progress<br>
+        <strong>Type:</strong> Research Project + Technical Report</p>
+        <p><strong>Summary:</strong> Built a research-grade SOC simulation using Wazuh logs and quantum kernel PCA to detect hidden threat patterns. Integrated post-quantum digital signatures (Dilithium) into SOAR playbooks for secure automation.</p>
+        <p><strong>Focus Areas:</strong> Post-quantum cryptography, SOC automation, quantum-enhanced AI, kernel-based anomaly detection</p>
+        <p><strong>Planned Submission:</strong> Erasmus application, GitHub publication</p>
+        <p><strong>Tools:</strong> Python, Wazuh, QuantumKernel, Dilithium, Azure Quantum</p>
+      </div>
+      <div class="paper-block">
+        <h3>2. 🌐 AI-Powered Anomaly Detection in 6G-Enabled Zero Trust Architectures</h3>
+        <p><strong>Status:</strong> Drafting for submission</p>
+        <p><strong>Summary:</strong> Proposes a next-generation Zero Trust architecture tailored for 6G networks. Integrates AI anomaly detection at the edge, microsegmentation policies, and simulated traffic profiling to detect policy violations.</p>
+        <p><strong>Focus Areas:</strong> Zero Trust, 6G network security, AI for intrusion detection, future-proof access control</p>
+        <p><strong>Planned Submission:</strong> IEEE Access / ACM Digital Threats (TBD)</p>
+        <p><strong>Tools:</strong> Python, Scikit-learn, Wazuh, Simulated 6G Testbed, Zero Trust Model</p>
+      </div>
+      <div class="paper-block">
+        <h3>3. 🌍 AI-Driven Urban Sustainability: A Modular "Lake Lab" Proposal for Mid-Sized Finnish Cities</h3>
+        <p><strong>Status:</strong> Drafting for academic showcase or blog publication</p>
+        <p><strong>Co-authors:</strong> Viitasaari AI Hackathon Team (Lead Author: Md Tanvir Rana)</p>
+        <p><strong>Summary:</strong> A sustainability innovation proposed to the City of Viitasaari — a floating AI research lab enabling localized ML-based climate research and public engagement. Designed for edge computing, real-time data analysis, and smart city expansion.</p>
+        <p><strong>Focus Areas:</strong> Smart cities, AI for sustainability, edge computing, population revitalization</p>
+        <p><strong>Planned Submission:</strong> JAMK Research Blog / E³UDRES² academic showcase</p>
+        <p><strong>Tools:</strong> Sensor Framework, ML for Environmental Data, Public Policy Mapping</p>
+      </div>
+      <div class="paper-archive">
+        <p><strong>🗂️ Research Archive GitHub Repo → Coming Soon</strong><br>
+        <small>(Includes papers, datasets, source code, and experimental appendices)</small></p>
+      </div>
+    </div>
+  </section>
 
   <!-- Testimonial -->
-  <section class="testimonial" id="testimonial">
+  <section class="testimonial card-block" id="testimonial">
     <h2><span class="section-head">Testimonial</span></h2>
     <div class="testi_container">
       <div class="testi_picture">
@@ -134,7 +302,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="contact" id="contact">
+  <section class="contact card-block" id="contact">
     <h2><span class="section-head">Contact</span></h2>
     <div class="con-container">
       <div class="con-text">
