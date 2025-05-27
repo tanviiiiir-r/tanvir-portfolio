@@ -65,23 +65,62 @@ a {
 }
 
 .about {
-    display: flex;
-    padding: 0 50px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 35px 0;
-    color: var(--text-color);
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 0 5vw;
+  margin: 35px 0;
+  color: var(--text-color);
+}
+
+.about-text {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.about-section-head {
+  all: unset;
+}
+
+.about-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  margin-top: 0;
+  line-height: 1.2;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .head_picture {
-    max-width: 35vw;
-    border-radius: 68% 32% 51% 49% / 44% 54% 46% 56%;
+  display: block;
+  margin: 0 auto;
+  max-width: 340px;
+  width: 100%;
+  height: auto;
+  border-radius: 68% 32% 51% 49% / 44% 54% 46% 56%;
+  object-fit: cover;
+  box-sizing: border-box;
+  transition: border-radius 0.5s, width 0.3s, max-width 0.3s;
 }
 
 .head_picture:hover {
-    border-radius: 52% 48% 26% 74% / 30% 37% 63% 70%;
-    transition: 0.5s;
+  border-radius: 52% 48% 26% 74% / 30% 37% 63% 70%;
+  width: 100%;
+  max-width: 340px;
 }
 
 .link {
@@ -115,14 +154,15 @@ a {
 }
 
 .section-head {
-    color: var(--background-color);
-    background-color: var(--text-color);
-    padding: 10px;
-    border-radius: 81% 19% 30% 70% / 42% 41% 59% 58%;
-    font-size: 2.7rem;
-    font-weight: 800;
-    display: inline-block;
-    margin-bottom: 10px;
+  color: var(--background-color);
+  background-color: var(--text-color);
+  padding: 16px 32px;
+  border-radius: 81% 19% 30% 70% / 42% 41% 59% 58%;
+  font-size: 3rem;
+  font-weight: 800;
+  display: inline-block;
+  margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .skill-text p {
@@ -444,10 +484,17 @@ footer p {
   margin-bottom: 0;
 }
 .event-leadership h3 {
-  color: #7fffd4;
-  margin-bottom: 8px;
-  font-size: 1.3rem;
-  font-weight: 600;
+  color: var(--background-color);
+  background-color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 10px 32px;
+  border-radius: 81% 19% 30% 70% / 42% 41% 59% 58%;
+  margin-bottom: 24px;
+  text-align: left;
+  display: inline-block;
+  align-items: center;
+  gap: 12px;
 }
 .event-leadership p {
   margin-bottom: 12px;
@@ -465,24 +512,22 @@ footer p {
   font-size: 1.01rem;
 }
 .event-title {
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--link-color); /* Use the same color as other normal headers */
-  background: none;
-  border-radius: 0;
-  margin-bottom: 10px;
-  text-align: left;
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  color: var(--text-color) !important;
+  background: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 0 !important;
+  margin-bottom: 24px !important;
 }
-.event-title span {
-  background: none;
-  color: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  padding: 0;
-  border-radius: 0;
+.event-title .emoji {
+  font-size: 1.35em !important;
+  margin-right: 10px !important;
+  vertical-align: middle !important;
 }
 @media (max-width: 700px) {
   .event-leadership .con-text {
@@ -629,6 +674,32 @@ footer p {
 
     .cert-list {
         max-width: 98vw;
+    }
+
+    .about {
+        padding: 0 10px;
+        gap: 18px;
+    }
+    .about-text {
+        max-width: 98vw;
+        gap: 12px;
+    }
+    .about-section-head {
+        font-size: 2.1rem;
+    }
+    .about-title {
+        font-size: 1.2rem;
+    }
+    .head_picture {
+        width: 98vw;
+        max-width: 98vw;
+        min-width: 0;
+        margin-top: 18px;
+    }
+    .section-head {
+        font-size: 1.5rem;
+        padding: 10px 16px;
+        margin-bottom: 18px;
     }
 }
 
