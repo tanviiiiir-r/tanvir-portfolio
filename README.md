@@ -5,6 +5,7 @@ Welcome to my personal portfolio website! This portfolio is a live, interactive 
 > 🚀 Deployed with [**GitHub Pages**](https://pages.github.com/)  
 > 🔐 Contact form powered by [**Formspree**](https://formspree.io)  
 > 🧑‍💻 Clean, responsive layout with mobile-first styling  
+> 🎨 Modern card-based UI, unified color palette, and visually distinct sections
 
 ---
 
@@ -47,7 +48,12 @@ Covers core tools and technologies used in cybersecurity and development:
 - **SQL**  
 - **Git**  
 
-Styled using FontAwesome icons with hover effects.
+Styled using FontAwesome icons with hover effects and modern badge layout.
+
+---
+
+### 🔹 Certifications
+A dedicated section listing key certifications, with issuer and year, in a clean, card-like format.
 
 ---
 
@@ -75,14 +81,23 @@ Assisted incoming exchange students in settling into life and academics in Finla
 
 ---
 
-### 🔹 Testimonials
+### 🔹 Event Participation & Leadership
+Highlights major events and leadership roles, such as:
+- **🧠 Viitasaari AI Hackathon** (with unified header style)
 
+---
+
+### 🔹 Papers & Research
+Academic and research contributions, with consistent section and title styling.
+
+---
+
+### 🔹 Testimonials
 Short professional bio and reflection on my learning journey, displayed with personal imagery and a soft UI layout.
 
 ---
 
 ### 🔹 Contact
-
 A Formspree-powered **responsive contact form** that allows visitors to reach out directly. All inputs are required and the form includes:
 
 - Name
@@ -100,6 +115,17 @@ Supports email notifications and can be extended with CAPTCHA or redirect on sub
 - **Formspree (API for form handling)**
 - **Font Awesome Icons**
 - **GitHub Pages (Hosting)**
+
+---
+
+## ✨ UI & Design Features
+
+- **Unified color palette**: Off-white, black, soft green/pink accents
+- **Card-like blocks**: All main sections visually distinct with border-radius and shadow
+- **Consistent section headers**: Large, bold, centered, and spaced
+- **Modern navigation**: 3x3 grid with icons for each section
+- **Fully responsive**: Mobile-first, with all images and layouts adapting to screen size
+- **No JavaScript**: Pure HTML and CSS for performance and security
 
 ---
 
@@ -133,7 +159,7 @@ The portfolio website is designed to serve as an online resume, showcasing **Md 
 
 ### 3. Website Structure
 
-- **Number of Sections**: About, Skills, Projects, Experience, Testimonials, and Contact  
+- **Number of Sections**: About, Skills, Certifications, Projects, Experience, Event Participation & Leadership, Papers & Research, Testimonials, and Contact  
 - **Media**: Optimized images and icons for fast loading  
 - **Codebase**: Clean HTML and CSS without JavaScript  
 
@@ -159,13 +185,16 @@ The portfolio website is designed to serve as an online resume, showcasing **Md 
 
 ### 6. Layout/User Interface
 
-- **Color Scheme**: Dark mode with soft pink accents  
+- **Color Scheme**: Dark mode with off-white, soft green, and pink accents  
 - **Typography**: Parkinsans Google font for a clean, academic vibe  
 - **User Navigation**:
   - Sticky nav bar
   - Intuitive section flow
   - Clickable anchors
+  - 3x3 grid navigation with icons
 - **Visual Elements**:
+  - Card-like section blocks
+  - Large, bold, centered section headers
   - Rounded images
   - Hover animations for icons and buttons
 - **Mobile Support**:
