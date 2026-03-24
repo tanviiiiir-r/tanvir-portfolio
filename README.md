@@ -1,6 +1,6 @@
 # tanvir-portfolio
-
-Brief overview of tanvir-portfolio
+[![CI](https://github.com/tanviiiiir-r/tanvir-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/tanviiiiir-r/tanvir-portfolio/actions) [![License](https://img.shields.io/github/license/tanviiiiir-r/tanvir-portfolio?style=flat)](https://github.com/tanviiiiir-r/tanvir-portfolio/blob/main/LICENSE)
+Personal portfolio site showcasing top AI/ML projects with live demos
 
 ## ✨ Features
 - Bullet point 1
@@ -35,3 +35,6 @@ MIT © 2026 Tanvir Rana
 
 ## 🤝 Contributing
 Feel free to open issues or submit pull requests – see `CONTRIBUTING.md` for guidelines.
+
+## 📦 License
+MIT © 2026 Tanvir Rana
