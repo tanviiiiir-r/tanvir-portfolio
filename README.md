@@ -1,229 +1,37 @@
-# 🌐 Md Tanvir Rana – Cybersecurity Portfolio
+# tanvir-portfolio
 
-Welcome to my personal portfolio website! This portfolio is a live, interactive resume built with **HTML5** and **CSS3**, showcasing my skills, projects, and professional journey in **cybersecurity, cloud security, and AI automation**.
+{{PROJECT_ELEVATOR}}
 
-> 🚀 Deployed with [**GitHub Pages**](https://pages.github.com/)  
-> 🔐 Contact form powered by [**Formspree**](https://formspree.io)  
-> 🧑‍💻 Clean, responsive layout with mobile-first styling  
-> 🎨 Modern card-based UI, unified color palette, and visually distinct sections
-
----
-
-## 🔗 Live Demo
-📍 **Live Site**: [tanviiiiir-r.github.io/tanvir-portfolio](https://tanviiiiir-r.github.io/tanvir-portfolio)  
-💌 **Email**: [ag2409@student.jamk.fi](mailto:ag2409@student.jamk.fi)  
-🔗 **GitHub Profile**: [github.com/tanviiiiir-r](https://github.com/tanviiiiir-r)
-
----
-
-## 📁 Repository Structure
-
-```
-tanvir-portfolio/
-├── index.html          # Main portfolio HTML page
-├── style.css           # Custom CSS styles
-├── Image/              # Folder for profile/testimonial pictures
-│   ├── tanvir-headshot.jpg
-│   └── tanvir-testimonial.jpg
-└── README.md           # Project documentation (this file)
-```
-
----
-
-## 📌 Sections Overview
-
-### 🔹 About Me
-A concise personal introduction, academic background at **JAMK University of Applied Sciences**, and areas of interest: SOC operations, ethical hacking, digital forensics, and AI-driven security tooling.
-
----
-
-### 🔹 Skills
-Covers core tools and technologies used in cybersecurity and development:
-
-- **Python**  
-- **Linux** (Terminal)  
-- **Kali Linux**  
-- **Wireshark**  
-- **Burp Suite**  
-- **SQL**  
-- **Git**  
-
-Styled using FontAwesome icons with hover effects and modern badge layout.
-
----
-
-### 🔹 Certifications
-A dedicated section listing key certifications, with issuer and year, in a clean, card-like format.
-
----
-
-### 🔹 Projects
-
-Each project includes:
-- **Tech Stack**
-- **Summary**
-- **GitHub Repo Link**
-- **Overview of what was built and why**
-
-#### ✅ Projects Included:
-1. **Cryptography-Based Secure Messaging System**  
-2. **Cloud Security Audit: Azure Misconfiguration Tool**  
-3. **SIEM Lab: Wazuh-Based SOC Simulation (Docker)**  
-4. **PromptWiz: AI-Powered Prompt Engineering Mentor**  
-5. **AI Job Bot – Local LLM-Powered Job Matching**
-
----
-
-### 🔹 Experience
-
-#### 🧑‍🏫 Exchange Student Tutor – JAMK University of Applied Sciences  
-Assisted incoming exchange students in settling into life and academics in Finland. Helped with orientation, daily logistics, cross-cultural integration, and tech onboarding.
-
----
-
-### 🔹 Event Participation & Leadership
-Highlights major events and leadership roles, such as:
-- **🧠 Viitasaari AI Hackathon** (with unified header style)
-
----
-
-### 🔹 Papers & Research
-Academic and research contributions, with consistent section and title styling.
-
----
-
-### 🔹 Testimonials
-Short professional bio and reflection on my learning journey, displayed with personal imagery and a soft UI layout.
-
----
-
-### 🔹 Contact
-A Formspree-powered **responsive contact form** that allows visitors to reach out directly. All inputs are required and the form includes:
-
-- Name
-- Email
-- Message
-
-Supports email notifications and can be extended with CAPTCHA or redirect on submission.
-
----
+## ✨ Features
+- Bullet point 1
+- Bullet point 2
+- Bullet point 3
 
 ## 🛠️ Tech Stack
+- Language / framework: **HTML**
+- Key libraries: list of libs
 
-- **HTML5**
-- **CSS3**
-- **Formspree (API for form handling)**
-- **Font Awesome Icons**
-- **GitHub Pages (Hosting)**
-
----
-
-## ✨ UI & Design Features
-
-- **Unified color palette**: Off-white, black, soft green/pink accents
-- **Card-like blocks**: All main sections visually distinct with border-radius and shadow
-- **Consistent section headers**: Large, bold, centered, and spaced
-- **Modern navigation**: 3x3 grid with icons for each section
-- **Fully responsive**: Mobile-first, with all images and layouts adapting to screen size
-- **No JavaScript**: Pure HTML and CSS for performance and security
-
----
-
-## 🚀 Getting Started Locally
-
-If you'd like to clone or modify this project:
-
+## 🚀 Quick Start
 ```bash
+# Clone the repo
 git clone https://github.com/tanviiiiir-r/tanvir-portfolio.git
 cd tanvir-portfolio
+
+# Install dependencies (choose one)
+# Python
+pip install -r requirements.txt
+# Node
+npm install
+
+# Run
+npm run dev
 ```
 
-Then open `index.html` in your browser or launch it from VS Code Live Server.
+## 📸 Demo
+![Demo screenshot](https://raw.githubusercontent.com/tanviiiiir-r/tanvir-portfolio/main/docs/demo.png)
 
----
+## 📄 License
+MIT © 2026 Tanvir Rana
 
-## 📘 Documentation
-
-### 1. Concept of the Website
-The portfolio website is designed to serve as an online resume, showcasing **Md Tanvir Rana’s** professional and academic journey, skills, and aspirations. The primary goal is to present his expertise in ICT and cybersecurity, establish a personal brand, and provide a platform for networking, collaboration, and career growth.
-
----
-
-### 2. Target Audience
-
-- **Recruiters and Employers**: Searching for candidates with expertise in cybersecurity, networking, and programming.  
-- **Peers and Collaborators**: Students and professionals interested in teaming up for projects.  
-- **Academics and Researchers**: Professors and institutions looking for collaboration or research potential.
-
----
-
-### 3. Website Structure
-
-- **Number of Sections**: About, Skills, Certifications, Projects, Experience, Event Participation & Leadership, Papers & Research, Testimonials, and Contact  
-- **Media**: Optimized images and icons for fast loading  
-- **Codebase**: Clean HTML and CSS without JavaScript  
-
----
-
-### 4. Technical Environment
-
-- **Languages**: HTML5, CSS3  
-- **Icons**: Font Awesome  
-- **Hosting Platform**: GitHub Pages  
-- **Responsiveness**: Media query support for mobile devices  
-
----
-
-### 5. Security Aspects
-
-- **Input Validation**: Uses Formspree validation to mitigate risks  
-- **HTTPS Hosting**: Enforced by GitHub Pages  
-- **Minimal External Scripts**: Avoids third-party vulnerabilities  
-- **No Sensitive Data Stored**: Formspree handles all submissions externally  
-
----
-
-### 6. Layout/User Interface
-
-- **Color Scheme**: Dark mode with off-white, soft green, and pink accents  
-- **Typography**: Parkinsans Google font for a clean, academic vibe  
-- **User Navigation**:
-  - Sticky nav bar
-  - Intuitive section flow
-  - Clickable anchors
-  - 3x3 grid navigation with icons
-- **Visual Elements**:
-  - Card-like section blocks
-  - Large, bold, centered section headers
-  - Rounded images
-  - Hover animations for icons and buttons
-- **Mobile Support**:
-  - Stacked layout for narrow screens
-  - Shrinkable fonts for readability
-  - Touch-friendly buttons
-
----
-
-### 7. Update Policy
-
-- **Frequency**: Updated as new skills, projects, or achievements arise  
-- **Ease of Maintenance**: Modular and semantic HTML/CSS for fast changes  
-
----
-
-### 8. Content and Media
-
-- **Original Content**: All text and media authored by Md Tanvir Rana  
-- **Licensed Icons**: Font Awesome under open license  
-- **Attribution**: Given where applicable  
-
----
-
-## 📟 License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-All content belongs to Md Tanvir Rana. Unauthorized use without permission is discouraged.
-
----
-
-> ✅ Feel free to fork this project for your own portfolio — attribution appreciated!
+## 🤝 Contributing
+Feel free to open issues or submit pull requests – see `CONTRIBUTING.md` for guidelines.
